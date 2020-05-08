@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <title>Page</title>
+  <meta name="description" content="Page description" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="assets/img/favicon.png" type="image/png" />
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
+  <![endif]-->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/slick.css">
+  <link rel="stylesheet" href="assets/css/slick-theme.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="assets/css/main.min.css" />
+  
+</head>
+<body>
+  <!-- svg sprite -->
+  <!-- //=include spriteSvg.svg -->
+  <!-- ========== -->
+  <div id="wrapper" class="wrapper">
+    <header id="header" class="header">
+      <div class="header__container">
+        <div id="header__content" class="header__content">
+          <div class="header__logo">
+            <a href="#">
+              <svg width="35" height="30" viewBox="0 0 35 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M34.7441 20.1546C32.2334 25.8997 25.6461 30 17.915 30C8.02081 30 0 23.2843 0 15C0 6.71573 8.02081 0 17.915 0C25.5908 0 32.1392 4.0419 34.6897 9.72239C34.5443 9.71854 34.3981 9.7166 34.251 9.7166C33.7883 9.7166 33.3336 9.73586 32.8891 9.77304C31.1984 8.1735 28.7349 7.16599 25.9919 7.16599C20.8939 7.16599 16.7611 10.6462 16.7611 14.9393C16.7611 19.2323 20.8939 22.7125 25.9919 22.7125C28.7349 22.7125 31.1984 21.705 32.8891 20.1055C33.3336 20.1427 33.7883 20.1619 34.251 20.1619C34.4164 20.1619 34.5809 20.1595 34.7441 20.1546ZM5.82996 9.83806H15.5466V13.1174H12.5101V20.1619H8.8664V13.1174H5.82996V9.83806Z" fill="#008080"/>
+                <path d="M17.3684 11.2486H17.8543V18.7514H17.3684V11.2486Z" fill="#008080"/>
+                <path d="M18.583 9.12523H19.0688V20.8748H18.583V9.12523Z" fill="#008080"/>
+                <path d="M19.7976 7.85118H20.2834V22.1488H19.7976V7.85118Z" fill="#008080"/>
+                <path d="M21.0121 7.28494H21.498V22.7151H21.0121V7.28494Z" fill="#008080"/>
+                <path d="M22.2267 6.29401H22.7126V23.706H22.2267V6.29401Z" fill="#008080"/>
+                <path d="M23.4413 6.29401H23.9271V23.706H23.4413V6.29401Z" fill="#008080"/>
+                <path d="M24.6559 5.58621H25.1417V24.4138H24.6559V5.58621Z" fill="#008080"/>
+                <path d="M25.8704 5.16152H26.3563V24.8385H25.8704V5.16152Z" fill="#008080"/>
+                <path d="M27.085 4.73684H27.5709V25.2632H27.085V4.73684Z" fill="#008080"/>
+                <path d="M28.2996 5.82996H28.7854V12.1738C28.5841 12.5458 28.4204 12.9411 28.2996 13.3547V5.82996Z" fill="#008080"/>
+                <path d="M28.2996 16.7668V23.9271H28.7854V17.9476C28.5841 17.5757 28.4204 17.1804 28.2996 16.7668Z" fill="#008080"/>
+                <path d="M29.5142 19.0078V23.9271H30V19.5135C29.8286 19.3544 29.6663 19.1855 29.5142 19.0078Z" fill="#008080"/>
+                <path d="M30.7287 20.0928V21.9996H31.2146V20.3896C31.0477 20.2981 30.8856 20.199 30.7287 20.0928Z" fill="#008080"/>
+                <path d="M31.2146 9.73189C31.0477 9.82336 30.8856 9.92244 30.7287 10.0287V5.82996H31.2146V9.73189Z" fill="#008080"/>
+                <path d="M30 10.608C29.8286 10.7671 29.6663 10.9359 29.5142 11.1137V5.82996H30V10.608Z" fill="#008080"/>
+                </svg>
+            </a>
+          </div>
+          <div class="header__phones">
+            <div class="lang">
+              <a href="#">UKR <svg width="12" height="8" viewBox="0 0 12 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M5.99997 7.06097L0.219971 1.28097L1.28097 0.219971L6.00097 4.93997L10.721 0.219971L11.782 1.28097L6.00197 7.06097H5.99997Z" fill="#646464"/>
+                </svg></a>
+            </div>
+            <div class="phone">
+              <a href="tel:380 50 3326472"><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.064 2.20188L19.032 2.18189L14.973 0.181885L10.592 6.02288L12.608 8.71089C12.5471 9.72212 12.1186 10.6762 11.4033 11.3936C10.6879 12.1109 9.73505 12.5421 8.72398 12.6059L8.71198 12.6069L6.02398 10.5909L0.182983 14.9719L2.18298 19.0309L2.20298 19.0629C2.41398 19.3989 2.78198 19.6189 3.20198 19.6189H4.25298C12.74 19.6189 19.62 12.7389 19.62 4.25188V3.20488V3.20089C19.62 2.78088 19.4 2.41288 19.069 2.20488L19.064 2.20188ZM18.12 4.25188C18.12 11.8979 11.899 18.1189 4.25298 18.1189H3.40498L2.07798 15.4249L6.02398 12.4659L8.22098 14.1139H8.47098C9.96712 14.112 11.4015 13.5169 12.4595 12.4591C13.5175 11.4013 14.1129 9.96702 14.115 8.47088V8.22088L12.467 6.02388L15.426 2.07788L18.12 3.40489V4.25188Z" fill="#646464"/>
+                </svg> +380 50 3326472</a>
+            </div>
+            <div class="phone">
+              <a href="mail:Dmitry.Shuman@rtst.com.ua"><svg width="24" height="18" viewBox="0 0 24 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0.75 0V18H23.25V0H0.75ZM11.1 10.763C11.348 10.949 11.661 11.061 12 11.061C12.339 11.061 12.652 10.949 12.904 10.76L12.9 10.763L14 9.938L21.75 15.751V16.501H2.25V15.751L10 9.938L11.1 10.763ZM12 9.563L2.25 2.25V1.5H21.75V2.25L12 9.563ZM2.25 4.125L8.75 9L2.25 13.875V4.125ZM21.75 13.875L15.25 9L21.75 4.125V13.875Z" fill="#646464"/>
+                </svg>Dmitry.Shuman@rtst.com.ua</a>
+            </div>
+          </div>
+          <div id="buttonnav" class="header__button">
+            <a class="menu-btn" type="button" aria-label="Menu" aria-controls="navigation">
+              <span class="menu-btn__block">
+                <span class="menu-btn__inner"></span>
+              </span>
+            </a>
+          </div>
+        </div>
+        <div id="header__menu" class="header__menu" style="margin-top: -280px; opacity: 0;">
+          <nav>
+            <ul>
+              <li><a class="scroll-to" href="#services">Послуги</a></li>
+              <li><a class="scroll-to" href="#types">Види продукції</a></li>
+              <li><a class="scroll-to" href="#advant">Про нас</a></li>
+              <li><a class="scroll-to" href="#contacts">Контакти</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <!-- .header end -->
+    
+    <main class="content">
+        <div class="content__first-screen">
+            <div class="first-screen__container">
+                <div class="first-screen__form" data-aos="fade-right">
+                    <h3>З нами Ви отримаєте сертифікацію Ваших продуктів легко й оперативно!</h3>
+                    <div class="form">
+                        <input class="form-row" type="text" placeholder="email">
+                        <a class="button-main" href="#">Отримати швидку консультацію</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content___text-block" data-aos="fade-left">
+            <div class="text-block__container">
+                <p>“Радіо Тест Стандарт” – Ваш надійний партнер у сфері сертифікації радіообладнання, 
+                    електронної та електропобутової продукції. Ми здійснюємо повноцінний супровід замовника 
+                    від моменту звернення і до отримання ним сертифікату, сертифікату експертизи типу та декларації відповідності.</p>
+            </div>
+        </div>
+        <div class="content__second-screen">
+            <div class="second-screen__container">
+                
+            </div>
+            <div class="second-screen__form" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
+                <div class="second-screen__text-part">
+                    <div class="image-part">
+                        <img src="assets/img/quotes.png" alt="#">
+                    </div>
+                    <div class="text-part">
+                        <p>20 років успішного досвіду роботи на ринках СНД та Європи. Ми працюємо в Україні, 
+                            Білорусі, Сербії, Молдові, Вірменії, Азербайджані, Узбекистані, Таджикистані, 
+                            Киргизстані, Туркменістані, Казахстані. Компанія співпрацює з провідними виробниками 
+                            галузі зв'язку та органами по сертифікації в країнах. </p>
+                    </div>
+                </div>
+                <div class="second-screen__rows">
+                    <h3>Ви можете отримати консультацію щодо сертифікації Вашої продукції!</h3>
+                    <div class="form center">
+                        <input class="form-row" type="text" placeholder="email">
+                        <a class="button-main" href="#">Отримати швидку консультацію</a>
+                    </div>
+                </div>
+    
+            </div>
+        </div>
+        <div class="content__third-block" data-aos="fade-right">
+           <div class="third-block__container">
+            <div id="services" class="third-block__title">
+                <h3>Послуги</h3>
+            </div>
+            <div class="third-block__text">
+                <p>Радіо Тест Стандарт” здійснює повноцінний супровід клієнта від надання зразків в 
+                    акредитовану випробувальну лабораторію до видачі сертифікату відповідності UkrSEPRO 
+                    (декларації відповідності технічним регламентам), а також надає допомогу у впровадженні 
+                    й просуванні вашої продукції на ринки.</p>
+            </div>
+           </div>
+        </div>
+        <div class="content__services__title">
+            <h2>Наша компанія допомагає клієнтам у таких сферах</h2>
+        </div>
+        <div class="content__services">
+            <div class="services__container">
+                <div class="services__items">
+                    <div class="services__one-item" data-aos="fade-right">
+                        <span>1</span>
+                        <p>Тестування й сертифікація електромагнітної сумісності (ЕМС). 
+                            Декларація відповідності Технічному регламенту низьковольтного електричного обладнання</p>
+                    </div>
+                    <div class="services__one-item" data-aos="fade-right">
+                        <span>2</span>
+                        <p>Проведення робіт по ідентифікації продуктів і технічної документації</p>
+                    </div>
+                    <div class="services__one-item" data-aos="fade-right">
+                        <span>3</span>
+                        <p>Тестування та сертифікація електричної безпеки продукції. Декларація відповідності 
+                            Технічному регламенту з електромагнітної сумісності обладнання</p>
+                    </div>
+                </div>
+                <div class="services__items right-side">
+                    <div class="services__one-item" data-aos="fade-right">
+                        <span>4</span>
+                        <p>Декларація відповідності Технічному регламенту обмеження використання 
+                            деяких небезпечних речовин в електричному та електронному обладнанні (RoHS)</p>
+                    </div>
+                    <div class="services__one-item" data-aos="fade-right">
+                        <span>5</span>
+                        <p>Здійснення пошуку кращих локальних партнерів для підтримки гарантійних зобов'язань </p>
+                    </div>
+                    <div class="services__one-item" data-aos="fade-right">
+                        <span>6</span>
+                        <p>Отримання заключень санітарно-гігієнічних служб або SAR на радіовипромінювальні та електропобутові пристрої</p>
+                    </div>
+                    <div class="services__one-item" data-aos="fade-right">
+                        <span>7</span>
+                        <p>Тестування та сертифікація радіотехнологій (WLAN Wi-Fi, Bluetooth, GSM, SRD, UMTS, LTE, NFC, GPS, RFID, WCDMA)</p>
+                    </div>
+    
+                </div>
+            </div>
+        </div> 
+        <div id="types" class="content__sliders">
+            <div class="sliders__container">
+                <div class="sliders__first-slider">
+                    <div class="first-slider__title" data-aos="fade-up-right">
+                        <h3>Види продукції</h3>
+                    </div>
+                    <div class="first-slider__content" data-aos="fade-up-right">
+                        <p>Наша компанія має значний досвід із сертифікації, декларування 
+                            та випробувань на відповідність міжнародним і 
+                            національним стандартам країн СНД та Європи:</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="first-slider__arrows" data-aos="flip-right" data-aos-duration="1000">
+            <!--<a id="prev" href="#" type="button"><img src="assets/img/left.png" alt="#"></a>
+            <a id="next" href="#" type="button"><svg width="13" height="18" viewBox="0 0 13 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M3.6404 18L0 14.3588L5.3588 9L0 3.6412L3.6404 0L12.642 8.9976L12.2188 9.42481L9.00319 12.6404L9.0008 12.638L3.6404 18ZM1.69364 14.3588L3.6404 16.3056L10.9508 9L9 7.04844L8.57679 6.62923L3.6412 1.69364L1.69444 3.6404L7.05323 8.9992L1.69364 14.3588Z" fill="#AAAAAA"/>
+                </svg></a>    -->
+        </div>
+        <div class="sliders__main-slider">
+            <div class="main-slider-content">
+               <div class="main-slider__items">
+               <div class="slide active">
+                <div class="main-slider__item">
+                    <div class="main-slider__item-text">
+                        <p>Мобільних телефонів всіх стандартів</p>
+                    </div>
+                    <div class="main-slider__item-img">
+                        <img src="assets/img/slider/1.png" alt="">
+                    </div>
+                </div>
+                <div class="main-slider__item">
+                    <div class="main-slider__item-text">
+                        <p>Факсимільних апаратів та модемів</p>
+                    </div>
+                    <div class="main-slider__item-img">
+                        <img src="assets/img/slider/4.png" alt="">
+                    </div>
+                </div>
+                <div class="main-slider__item">
+                    <div class="main-slider__item-text">
+                        <p>Радіорелейного обладнання</p>
+                    </div>
+                    <div class="main-slider__item-img">
+                        <img src="assets/img/slider/7.png" alt="">
+                    </div>
+                </div>
+               </div>
+                <div class="slide">
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Телевізорів та іншої відео- й аудіоапаратури</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/2.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Побутової техніки    Побутової техніки</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/5.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Обладнання земних станцій супутникового зв'язку</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/8.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Антен, антенно-фідерних пристроїв</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/3.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Радіомовних і телевізійних передавачів</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/6.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Систем електроживлення, акумуляторів</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/9.png" alt="">
+                        </div>
+                    </div>
+                   </div>  
+                   <div class="slide">
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Радіостанцій сухопутної рухомої служби</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/10.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Медичного радіообладнання</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/11.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Навігаційних пристроїв&nbsp;&nbsp;</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/12.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="slide">
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Транкінгових і стільникових систем</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/13.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Електронних та електричних іграшок</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/14.png" alt="">
+                        </div>
+                    </div>
+                    <div class="main-slider__item">
+                        <div class="main-slider__item-text">
+                            <p>Електроніки для автомобілів та сільсьгосп. техніки</p>
+                        </div>
+                        <div class="main-slider__item-img">
+                            <img src="assets/img/slider/15.png" alt="">
+                        </div>
+                    </div>
+                   </div>     
+                </div>
+              
+            </div>      
+        </div>
+        <div id="advant" class="content__advantages">
+            <div class="advantages__container">
+                <div class="advantages__left-side">
+                    <div class="advantages-title">
+                        <h3>Переваги</h3>
+                    </div>
+                    <div class="advantages__items">
+                        <div class="advantages__item" data-aos="fade-right" data-aos-duration="500">
+                            <div class="advantages_img">
+                                <svg class="img-svg" width="41" height="40" viewBox="0 0 41 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M26.1704 30L26.4554 35.86L20.5977 31.7417L14.707 35.865L14.9919 30.0017H12.5177L12.0911 38.7517H14.9244L20.5927 34.785L26.2347 38.7517H29.068L28.6413 30.0017H26.1671L26.1704 30Z" fill="#008080"/>
+                                    <path d="M32.89 12.1033L32.7203 8.3483L29.5921 6.3233L27.5907 3.1583L23.8793 2.98663L20.5815 1.2583L17.2836 2.98663L13.5723 3.1583L11.5708 6.3233L8.4426 8.3483L8.27293 12.1033L6.5647 15.44L8.27293 18.7766L8.4426 22.5316L11.5708 24.5566L13.5723 27.7216L17.2836 27.8933L20.5815 29.6216L23.8793 27.8933L27.5907 27.7216L29.5921 24.5566L32.7203 22.5316L32.89 18.7766L34.5982 15.44L32.89 12.1033ZM30.4471 18.115L30.312 21.1233L27.8048 22.7466L26.2004 25.2833L23.227 25.42L20.5831 26.805L17.9392 25.42L14.9659 25.2833L13.3614 22.7466L10.8542 21.1233L10.7192 18.115L9.35026 15.44L10.7192 12.765L10.8542 9.75663L13.3614 8.1333L14.9659 5.59663L17.9392 5.4583L20.5831 4.0733L23.227 5.4583L26.2004 5.59663L27.8048 8.1333L30.312 9.75663L30.4471 12.765L31.816 15.44L30.4471 18.115Z" fill="#008080"/>
+                                    </svg>
+                            </div>
+                            <div class="advantages_title">
+                                <p>Гарантія успішного проходження тестування й сертифікації</p>
+                            </div>
+                        </div>
+                        <div class="advantages__item" data-aos="fade-right" data-aos-duration="800">
+                            <div class="advantages_img">
+                                <svg class="img-svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M10.1116 29.6H34.2667V4H10.0448C8.97334 4.00337 7.9467 4.43041 7.18892 5.18792C6.43115 5.94543 6.00375 6.97192 6 8.04338V31.6167H6.00142L6 31.6466C6 34.006 7.85173 36 10.0448 36H34.2667V33.8667H10.0448C9.04498 33.8667 8.13333 32.8085 8.13333 31.6466C8.13333 30.5372 9.03929 29.6 10.1116 29.6ZM27.3333 6.15609V17.6775L24.1063 14.8444L20.9333 17.6604V6.15609H27.3333ZM18.8 6.13333V20.5333H20.9092L24.1148 17.6889L27.3547 20.5333H29.4681V6.13333H32.1348V27.4667H12.4071L12.4014 6.13333H18.8ZM10.0448 6.13333H10.2667L10.2724 27.4667H10.1116C9.38347 27.4667 8.70222 27.6615 8.11484 28.0028L8.13333 27.9929V8.06187V8.05618C8.13295 7.54844 8.3337 7.06121 8.69166 6.70112C9.04962 6.34103 9.53564 6.13739 10.0434 6.13476L10.0448 6.13333Z" fill="#008080"/>
+                                    </svg>
+                            </div>
+                            <div class="advantages_title">
+                                <p>Досконале знання специфіки національних правил сертифікації</p>
+                            </div>
+                        </div>
+                        <div class="advantages__item" data-aos="fade-right" data-aos-duration="1000">
+                            <div class="advantages_img">
+                                <svg class="img-svg" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M25 15H15V25H25V15ZM22.5 22.5H17.5V17.5H22.5V22.5Z" fill="#008080"/>
+                                    <path d="M36 17.7143V15.4286H30.8571V9.14286H24.5714V4H22.2857V9.14286H17.7143V4H15.4286V9.14286H9.14286V15.4286H4V17.7143H9.14286V22.2857H4V24.5714H9.14286V30.8571H15.4286V36H17.7143V30.8571H22.2857V36H24.5714V30.8571H30.8571V24.5714H36V22.2857H30.8571V17.7143H36ZM28.5714 28.5714H11.4286V11.4286H28.5714V28.5714Z" fill="#008080"/>
+                                    </svg>
+                            </div>
+                            <div class="advantages_title">
+                                <p>Багаторічний досвід роботи у сфері</p>
+                            </div>
+                        </div>
+                        <div class="advantages__item" data-aos="fade-right" data-aos-duration="1300">
+                            <div class="advantages_img">
+                                <svg class="img-svg" width="32" height="29" viewBox="0 0 32 29" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M7.37797 11.3083H2.39486C1.60984 11.3083 0.952822 11.8573 0.789278 12.5925L0.787856 12.6039C0.287269 14.7399 0 17.1931 0 19.7131C0 22.071 0.251716 24.3705 0.728127 26.5848L0.68973 26.3715L0.789278 26.8507C0.868236 27.2226 1.07217 27.5563 1.36714 27.7961C1.66211 28.036 2.03032 28.1676 2.4105 28.169H7.38082C7.81961 28.1683 8.24022 27.9936 8.5505 27.6834C8.86077 27.3731 9.03542 26.9525 9.03617 26.5137V12.9637C9.03579 12.5248 8.86127 12.104 8.55091 11.7936C8.24055 11.4832 7.81973 11.3087 7.38082 11.3083H7.37797ZM6.90014 26.0373H2.79589L2.77598 25.9377C2.34135 23.892 2.12493 21.8059 2.13034 19.7145C2.13034 17.4932 2.36926 15.3273 2.82291 13.241L2.78594 13.4415H6.90014V26.0373Z" fill="#008080"/>
+                                    <path d="M31.8975 16.2831L30.4256 12.3566C30.3094 12.0498 30.1027 11.7855 29.8331 11.5986C29.5634 11.4117 29.2434 11.3111 28.9153 11.3099H21.0681V9.3417L21.7066 7.92811C22.0246 7.22379 22.2005 6.46368 22.2243 5.69128C22.2482 4.91888 22.1194 4.14936 21.8454 3.42679C21.5715 2.70421 21.1577 2.04277 20.6277 1.48034C20.0978 0.917907 19.4621 0.465524 18.7571 0.149094L18.7201 0.134872C18.3335 -0.0336037 17.8964 -0.0446584 17.5018 0.104058C17.1072 0.252775 16.7861 0.549536 16.6069 0.931261L16.6026 0.941216L11.2483 12.6609V14.3319H12.8297L18.3148 2.32494C19.0922 2.80509 19.6673 3.55269 19.9321 4.42716C20.1969 5.30163 20.133 6.24271 19.7526 7.07341L19.7625 7.05066L19.0301 8.6733L18.9363 9.11273V12.3779L20.0029 13.4445H28.5555L29.8681 16.9458V17.5644L25.3358 25.5297H17.0065L11.2483 22.1522V24.6253L16.048 27.4411C16.2812 27.5804 16.5642 27.6629 16.8643 27.6629H25.6373C26.2346 27.6629 26.7565 27.3372 27.0353 26.8551L27.0395 26.848L31.7894 18.5002C31.9217 18.2712 31.9999 17.9953 31.9999 17.7024V16.8519V16.8505C31.9999 16.6471 31.9615 16.4523 31.8933 16.2745L31.8975 16.2859V16.2831Z" fill="#008080"/>
+                                    </svg>
+                            </div>
+                            <div class="advantages_title">
+                                <p>Висококваліфіковані та надійні спеціалісти </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="advantages__right-side" data-aos="fade-up">
+                    <div class="adv__image">
+                        <img src="assets/img/adv.png" alt="">
+                    </div>
+                    <div class="adv__comment">
+                        <div class="quotes_img">
+                            <img src="assets/img/quotes.png" alt="">
+                        </div>
+                        <div class="adv__text">
+                            <p>Ми знаємо про підводні камені на шляху отримання сертифікації 
+                                (декларації відповідності) і вміємо відчиняти двері, що можуть бути зачинені для інших. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- .content end -->
+    
+    <div id="contacts" class="contacts">
+      <div class="contacts__container">
+       <div class="contacts__content">
+        <div class="contacts__left-side">
+          <div class="contacts__form">
+            <h3>Контакти</h3>
+            <p>Залишились питання?</p>
+          </div>
+          <div class="form">
+            <input class="form-row" type="text" placeholder="email">
+            <textarea class="textarea" name="" id="" cols="30" rows="10" placeholder="Задати питання"></textarea>
+            <a class="button-main" href="#">Отримати швидку консультацію</a>
+        </div>
+        </div>
+        <div class="contacts__right-side">
+            <div class="contacts__right-side__adress">
+                <h4> Україна</h4>
+                <ul>
+                  <li><span>Адреса:</span>04209, м. Київ, вул. Героїв Дніпра 18</li>
+                  <li class="footer-phone"><span>Телефон:</span> <a href="tel:+380 50 3326472">+380 50 3326472 </a> (Дмитро Шуман, Директор)</li>
+                  <li><span>Ел. пошта:</span><a href="email:Dmitry.Shuman@rtst.com.ua">Dmitry.Shuman@rtst.com.ua</a></li>
+                
+                </ul>
+            </div>
+            <div class="contacts__right-side__map"></div>
+        </div>
+      </div>
+       </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__container">
+        <div class="footer__content">
+          <div class="footer__content-part-left">
+            <div class="footer__items">
+              <p>Науково-дослідницький центр: “Радіо Тест Стандарт” Україна, 04209, м. Київ, вул. Героїв Дніпра 18</p>
+            </div>
+            <div class="footer__items">
+              <ul>
+                <li>© 2003</li>
+                <li>Dmitry.Shuman@rtst.com.ua</li>
+                <li><a href="tel:+380 50 3326472">+380 50 3326472</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer__content-part-right">
+            <ul>
+              <li><a href="#">Ukrainian</a></li>
+              <li><a href="#">English</a></li>
+              <li><a href="#">Chinese</a></li>
+              <li><a href="#">Korean</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- .footer end -->
+    
+  </div>
+  <!-- .wrapper end -->
+
+  <script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+  <script src="assets/js/slick.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+  
+</body>
+</html>
